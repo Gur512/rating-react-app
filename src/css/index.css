@@ -1,0 +1,128 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, rgb(11, 26, 43) 0%, #134040 60%, #222831 100%);
+}
+
+.container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.star-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.text {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feed-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feed-item {
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+} 
+
+.star-icon {
+    cursor: pointer;
+    font-size: 24px;
+    transition: color 0.2s ease;
+}
+
+.dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(52, 51, 76, 0.3); 
+  backdrop-filter: blur(6px); 
+  z-index: 9999;
+}
+
+.dialog-box {
+  background-color:rgba(11, 37, 43, 0.377);
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+  max-height: 95vh;
+  overflow-y: auto;  
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dialog-btn {
+  background-color: #018786;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  align-self: center;
+  transition: background 0.3s ease;
+}
+
+.dialog-btn:hover {
+  background-color: #03DAC6;
+}
+
+.rate-btn {
+  background-color: #03b7a5ed;
+  color: #e0e0e0;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 2rem;
+  border-radius: 15px;
+  cursor: pointer;
+  align-self: center;
+  transition: background 0.3s ease;
+}
+
+.header-txt {
+    color: #e0e0e0;
+    font-size: 10rem;
+}
+
+.btn-container {
+    width: min(100% - 30px, 1080px);
+    margin-inline: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100dvh;
+}
