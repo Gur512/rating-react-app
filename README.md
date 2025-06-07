@@ -22,7 +22,7 @@ A fun and interactive meme rating app built with **React**! Users can rate memes
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/meme-rating-dialog.git
+git clone https://github.com/Gur512/meme-rating-dialog.git
 cd meme-rating-dialog
 npm install
 npm start
@@ -35,12 +35,12 @@ http://localhost:3000
 ### :jigsaw: Project Structure
 ```bash
 src/
-├── App.js              # Main app logic & dialog control
+├── App.js              
 ├── components/
-│   ├── Dialog.js       # Dialog overlay with meme list
-│   ├── ImageRating.js  # Renders image feed with ratings
-│   ├── Star.js         # Single star component
-│   └── StarRating.js   # Handles full 5-star rating logic
+│   ├── Dialog.js       
+│   ├── ImageRating.js  
+│   ├── Star.js         
+│   └── StarRating.js   
 └── css   
     ├── index.css       
 └── index.js          
